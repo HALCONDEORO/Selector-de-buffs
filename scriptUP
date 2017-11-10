@@ -1,0 +1,7 @@
+scriptUp={
+BUSCADOR:'4.2',
+BUSCADOR:'UPDATER',
+cs:['Aktualizovat','NovÃ¡ verze scriptu je dostupnÃ¡'],de:['Update','FÃ¼r das Script ist eine neue Version erhÃ¤ltlich'],el:['Î”Î¹Î±Î¸Î­ÏƒÎ¹Î¼Î· Î±Î½Î±Î²Î¬Î¸Î¼Î¹ÏƒÎ·','ÎœÏ€Î¿ÏÎµÎ¯Ï„Îµ Î½Î± ÎºÎ±Ï„ÎµÎ²Î¬ÏƒÎµÏ„Îµ Ï„Î·Î½ Ï„ÎµÎ»ÎµÏ…Ï„Î±Î¯Î± Î­ÎºÎ´Î¿ÏƒÎ·'],en:['Update','A new version of the script is available'],es:['ActualizaciÃ³n','Una nueva versiÃ³n del script estÃ¡ disponible'],fr:['Mise Ã  jour','Une nouvelle version du script est disponible'],it:['Atualizar','Script aggiornamento disponibile'],hu:['FrissÃ­tÃ©s','Egy Ãºj vÃ¡ltozata a script elÃ©rhetÅ‘'],nl:['Update','Er is een nieuwe versie van dit script beschikbaar'],pl:['Aktualizacja','Nowa wersja skryptu jest dostÄ™pna'],pt:['AtualizaÃ§Ã£o','Uma nova versÃ£o do script estÃ¡ disponÃ­vel'],ro:['Actualizare','O nouÄƒ versiune este disponibilÄƒ'],ru:['ÐžÐ±Ð½Ð¾Ð²Ð»ÐµÐ½Ð¸Ðµ','Ð”Ð¾ÑÑ‚ÑƒÐ¿Ð½Ð¾ Ð¾Ð±Ð½Ð¾Ð²Ð»ÐµÐ½Ð¸Ðµ ÑÐºÑ€Ð¸Ð¿Ñ‚Ð°'],sk:['AktualizovaÅ¥','NovÃ¡ verzia scriptu je dostupnÃ¡'],tr:['GÃ¼ncelleÅŸtir','Scriptin yeni bir sÃ¼rÃ¼mÃ¼'],
+c:function(s,v,n,a,w,l){if(scriptUp[s]!=v){l=scriptUp[l]||scriptUp.en;var m=new west.gui.Dialog(l[0]+': '+n,'<span>'+l[1]+'<br><br><b>v'+scriptUp[s]+':</b><br>'+scriptUp[s+'n']+'</span>','warning').addButton(l[0],function(){m.hide();window.open(a);}).addButton(l[0]+' [NoAds]',function(){m.hide();location.href=w+'/code.user.js';}).addButton('cancel').show();}},
+rfb:2.60,
+};
